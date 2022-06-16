@@ -1,0 +1,22 @@
+[
+    {
+        "username": "navodir",
+        "password": "dfbf44358798c4cb523ec9c735444fb9ef9d6ef67bf650eca303da592586ee0a",
+        "email": "baxtiyorovmuhammadrizo@gmail.com",
+        "userId": 2,
+        "avatar": {
+            "viewLink": "http://localhost:5000/view/16553745385149.ÐÑÑÑÑÐ½Ñ.jpg",
+            "downloadLink": "http://localhost:5000/download/16553745385149.ÐÑÑÑÑÐ½Ñ.jpg"
+        }
+    },
+    {
+        "username": "Muhammadrizo",
+        "password": "2fa3a06fc679f6930e9e23111836b560e4e004f74b574d28ebc411363a32ad40",
+        "email": "baxtiyorovmuhammadrizo@gmail.com",
+        "userId": 3,
+        "avatar": {
+            "viewLink": "http://localhost:5000/view/1655374692510rasm.jpg",
+            "downloadLink": "http://localhost:5000/download/1655374692510rasm.jpg"
+        }
+    }
+]
