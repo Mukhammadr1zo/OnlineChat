@@ -34,7 +34,7 @@ function renderUsers(users) {
 }
 
 async function getUsers() {
-  const response = await fetch('http://localhost:5000/users', {
+  const response = await fetch('https://online-chats-by-me.herokuapp.com/users', {
     method: "GET",
     headers: {
       "content-type": "application/json",
@@ -132,7 +132,7 @@ function renderMessages(messages) {
 }
 
 async function getMessages() {
-  const response = await fetch('http://localhost:5000/messages', {
+  const response = await fetch('https://online-chats-by-me.herokuapp.com/messages', {
     method: "GET",
     headers: {
       "content-type": "application/json",
@@ -170,7 +170,7 @@ form.addEventListener('submit', async (evt) => {
     formData.append("file", file);
   }
 
-  const response = await fetch('http://localhost:5000/messages', {
+  const response = await fetch('https://online-chats-by-me.herokuapp.com/messages', {
     method: "POST",
     headers: {
       'token': window.localStorage.getItem('token')

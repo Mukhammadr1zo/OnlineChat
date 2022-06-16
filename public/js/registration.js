@@ -31,7 +31,7 @@ form.addEventListener('submit', async (evt) => {
     formData.append("avatar", avatar);
   };
 
-  const response = await fetch('http://localhost:5000/register', {
+  const response = await fetch('https://online-chats-by-me.herokuapp.com/register', {
     method: "POST",
     body: formData
   });
